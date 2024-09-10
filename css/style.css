@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    background-color: #95afff;
+    font-family: "Playwrite DE Grund", cursive;
+    color: white; 
+    font-weight: 400;
+    font-style: normal;
+    border-bottom: 2px solid white;
+}
+
+footer {
+    background-color: #95afff; 
+    color: #420039; 
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: "Playwrite DE Grund", cursive; 
+    color: white; 
+    border-top: 2px solid black; 
+}
+
+footer a {
+    margin: 0 20px;
+}
+
+h1 {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: #12355B;
+    text-align: center;
+}
+
+.headshot {
+    border: 5px solid #ebebeb;
+    border-radius: 40% / 100%; 
+    margin-left: 43%;
+}
+
+.address {
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 10px;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.tagline {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    margin-left: 10px;
+}
+
+hr {
+    border-top: 2px solid black;
+}
+
+h2 {
+    font-family: "Playwrite DE Grund", cursive;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #12355B;
+    margin-left: 10px;
+    margin-top: 35px;
+}
+
+.edu {
+    margin-left: 20px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px; /* Adjusted to align with content */
+    padding: 0;
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 0.9em;
+}
+
+dl {
+    margin: 20px;
+    padding: 0;
+    border: 1px solid #ddd; /* Optional: Adds a border to visually separate sections */
+}
+
+dt {
+    font-weight: bold; 
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 0.9em;  
+    margin-bottom: 5px;
+}
+
+dd {
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 0.9em;  
+    margin: 0 0 10px 0;
+    text-align: left; /* Ensures left alignment of dd text */
+}
+
+a {
+    color: #270091;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    color: white;
+    transition: color 0.3s ease, background-color 0.3s ease; 
+}
+
+h3 {
+    font-weight: bold; 
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1em;  
+    text-align: center;
+}
+
+.three-col {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.card {
+    border: 1px solid #12355B;
+    background-color: rgb(255,229,149);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.proj1 {
+    width: 500px;
+    height: 300px;
+}
+
+.proj2 {
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+}
+
+.proj3 {
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+}
+
+.one-col {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 122px;
+}
+
+.one-col label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    align-self: flex-start;  
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+}
+
+.one-col input,
+.one-col textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box; 
+}
+
+.one-col button {
+    padding: 10px 20px;
+    background-color: #ddebfa;
+    color: #12355B;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.one-col button:hover {
+    background-color: #a6d0ff;
+}
